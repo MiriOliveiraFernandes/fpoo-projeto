@@ -1,0 +1,27 @@
+
+public class Enunciado4 {
+
+	private int N1;
+	private int impar;
+	private int par;
+	
+	public void MaiorQueZero(){
+		if (getN1()>0) {
+		}else {
+			System.out.println(" DIGITE UM NÚMERO MAIOR QUE 0");
+		}
+	}
+	
+	public void s
+	
+	
+	public int getN1() {
+		return N1;
+	}
+
+	public void setN1(int n1) {
+		N1 = n1;
+	}
+	
+	
+}

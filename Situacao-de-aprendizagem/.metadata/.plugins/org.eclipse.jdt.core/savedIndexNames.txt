@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+C:\Users\aluno\Desktop\FPOO\Situacao-de-aprendizagem\.metadata\.plugins\org.eclipse.jdt.core
+2673266638.index
+87639718.index

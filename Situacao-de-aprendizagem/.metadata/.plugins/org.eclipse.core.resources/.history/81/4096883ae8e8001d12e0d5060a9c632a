@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class MAIN {
+
+	public static void main(String[] args) {
+	
+		Scanner objScanner = new Scanner(System.in);
+		
+		DadosPessoais objDadosPessoais = new DadosPessoais();
+		
+		DadosContato objDadosContato = new DadosContato();
+		
+		DadosEndereco objDadosEndereco = new DadosEndereco();
+		
+		System.out.println("BEM VINDO AO CADASTRO DA EMPRESA SYSTEC");
+		
+		
+	    
+	    System.out.println("OBRIGADA, CADASTRO REALIZADO COM SUCESSO");
+	}
+
+}

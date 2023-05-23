@@ -1,0 +1,83 @@
+
+public class Enunciado3 {
+	private int N1;
+	private int N2;
+	private int N3;
+	private int N4;
+	private int N5;
+	private int media1;
+	private int media2;
+	
+		public void CalcularMedia() {
+			if (media1() >= 7){
+				System.out.println(" APROVADO");
+			}
+				
+		}
+		
+		public void CalcularMedia2() {
+			if(media2() >= 7) {
+				System.out.println(" APROVADO");
+			}else {
+				System.out.println(" Reprovado");
+			}
+		}
+		public int media1(){
+			media1 = (getN1()+ getN2()+ getN3()+ getN4())/4;
+			return media1;
+			
+		}
+		
+		public int media2() {
+			media2=(getN1()+getN2()+getN3()+ getN4()+ getN5())/5;
+			return media2;
+		}
+
+		public int getN1() {
+			return N1;
+		}
+
+		public void setN1(int n1) {
+			N1 = n1;
+		}
+
+		public int getN2() {
+			return N2;
+		}
+
+		public void setN2(int n2) {
+			N2 = n2;
+		}
+
+		public int getN3() {
+			return N3;
+		}
+
+		public void setN3(int n3) {
+			N3 = n3;
+		}
+
+		public int getN4() {
+			return N4;
+		}
+
+		public void setN4(int n4) {
+			N4 = n4;
+		}
+
+		public int getN5() {
+			return N5;
+		}
+
+		public void setN5(int n5) {
+			N5 = n5;
+		}
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,39 @@
+
+public class Enunciado4 {
+
+	private double N1;
+	private double resto;
+
+	
+	public void MaiorQueZero(){
+		if (getN1()>0) {
+			if(resto == 0){
+				System.out.println(" ESTE NÚMERO É PAR");
+			
+				
+		}else {
+			System.out.println(" DIGITE UM NÚMERO MAIOR QUE 0");
+		}
+		
+
+		}else {
+			System.out.println(" ESTE NÚMERO É IMPAR");
+
+		}
+	}
+	
+	public void resto() {
+		resto = (getN1()%2);
+	}
+	
+	
+	public double getN1() {
+		return N1;
+	}
+
+	public void setN1(double n1) {
+		N1 = n1;
+	}
+	
+	
+}
